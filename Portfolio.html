@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title> PORTFOLIO BRO</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://kit.fontawesome.com/f5571ef1ec.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="images.png" height="100px" width="100px" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class= "header-text">
+                   <p>
+                    Student
+                   </p> 
+                   <h1>Hello I'm <span>Tapas</span> <br>Pleased to have you.</h1>
+                </div>
+
+                
+            </div>
+
+        </div>
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                  <div class="Column-1">
+                    <img src="haha.jpg">
+                    </div>
+                   <div class="Column-2">
+                       <h1 class="subtitle">About Me</h1>
+                      <p>I'm a full time Student. I love to tavel to new places and gaze at differernt kinds of sceneary, with friends of course but i don't 
+                        mind doing it alone too. I'm also interested in computers and how they work fundamentally. Currently I'm just focusing in my studies and that
+                        is why i don't have much practical knowledge but i'm i think it's about time i start focusing on both which is why i'm always eager to learn something new.
+                      </p>
+                      <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('Education')">Education</p>
+                      </div>
+                       <div class="tab-contents active-tab" id="Skills">
+                        <ul>
+                            <li><span>3D Modeling</span><br>Creating 3D objects using specialised software.</li>
+                            <li><span>Web Development</span><br>Construction and programming of websites  </li>
+                            
+                            
+                        </ul>
+                      </div>
+                       <div class="tab-contents" id="Experience">
+                        <ul>
+                            <li> <span> Student</span><br>No valid Experience regarding my field yet.</li>
+                            
+                            
+                        </ul>
+                        </div>
+                     <div class="tab-contents" id="Education">
+                        <ul>
+                            <li><span>Upto 10</span><br>Siddhartha Sishu Sadan</li>
+                            <li><span>+2</span><br>Hetauda School of Management </li>
+                            <li><span>Bachelor</span><br>Hetauda City College</li>
+                            
+                        </ul>
+                    </div>
+                  </div>
+             </div>
+         </div> 
+     </div>
+     
+        <!------------services---------------->
+        
+        <div id="services">
+            <div class="containter">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>I can do little bit of web desigining. Web design encompasses many different skills and disciplines in the production and maintenance of websites.
+                            Web design involves creating the visual elements and layout of a website. </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-unity"></i>
+                        <h2>3D Modeling</h2>
+                        <p>In 3D computer graphics, 3D modeling is the process of developing a mathematical coordinate-based representation 
+                            of a surface of an object (inanimate or living) in three dimensions via specialized software by manipulating edges,
+                             vertices, and polygons in a simulated 3D space.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+
+        <!-------------------------Portfolio------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images.jpg">
+                        <div class="layer">
+                            <h3> Social Media App</h3>
+                            <p>The term “social media application” refers to the range of web applications based on Web 2.0 technologies that enable users to
+                                 socially interact with one another online.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images1.jpg">
+                        <div class="layer">
+                            <h3>Online Shopping</h3>
+                            <p>Online shopping is a form of electronic commerce which allows consumers to directly buy goods or services from a seller over the Internet using a web browser or a mobile app.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images2.jpg">
+                        <div class="layer">
+                            <h3> Music App</h3>
+                            <p>The primary purpose of the music streaming application is to play music available in the databases of the service, compose custom playlists and suggest similar songs.</p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+        
+        <!-------------------------------contact-------------------------------------->
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>tapas.mahat123@gmail.com</p>
+                        <p><i class="fa-solid fa-phone-volume"></i>9846948969</p>
+                        <div class="social-icons">
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href=""><i class="fa-brands fa-snapchat"></i></a>
+                        </div>
+                        <a href="My project-1.png" download class="btn btn2">Download CV</a>
+                    </div>
+                    <div class="contact-right">
+                        <form>
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+    
+                        </form>
+                    </div> 
+                    
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Tapas. Made with help of youtube video.</p>
+            </div>
+        </div>
+        <script>
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+        </script>
+
+<script>
+    var sidemenu=document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right="0";
+    }
+    function closemenu(){
+        sidemenu.style.right="-200px";
+    }
+</script>
+
+    </body>
+
+</html>
